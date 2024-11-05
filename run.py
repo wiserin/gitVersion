@@ -8,7 +8,7 @@ from app.mailing import mailing
 
 
 
-# Launching a bot, getting a token
+# Запуск бота
 async def main():
     start_db
     dp = Dispatcher()
@@ -19,6 +19,6 @@ async def main():
     except Exception as e:
         print(e)
 
-# Entry point
+# Точка входа
 if __name__ == "__main__":
     asyncio.run(main())
